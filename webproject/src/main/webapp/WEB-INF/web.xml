@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>webproject</display-name>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  <servlet>
+  	<servlet-name>registerClass</servlet-name>
+  	<servlet-class>webproject.program1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>registerClass</servlet-name>
+  	<url-pattern>/registerrrr</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>vvs11</servlet-name>
+  	<servlet-class>webproject.Login</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>callername1</servlet-name>
+  	<servlet-class>webproject.Sum</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>callername1</servlet-name>
+  	<url-pattern>/caller1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+  	<servlet-name>callername2</servlet-name>
+  	<servlet-class>webproject.Product</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>callername2</servlet-name>
+  	<url-pattern>/caller2</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <servlet>
+  	<servlet-name>Lpage</servlet-name>
+  	<servlet-class>webproject.Webpage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Lpage</servlet-name>
+  	<url-pattern>/LoginPage</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>welcomePage</servlet-name>
+  	<servlet-class>webproject.Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>welcomePage</servlet-name>
+  	<url-pattern>/NewPAGE</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+  	<servlet-name>loginPage</servlet-name>
+  	<servlet-class>webproject.program2</servlet-class>
+  
+  
+  </servlet>
+
+
+
+  <servlet-mapping>
+  	<servlet-name>loginPage</servlet-name>
+	<url-pattern>/login</url-pattern>
+  
+  
+  </servlet-mapping>
+  
+ 
+</web-app>
